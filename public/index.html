@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Geri meleg-e?</p>
-    <form action="" method="get">
-        <label for="opcio1">Igen</label>              <input type="radio" name="gomb" id="opcio1" value="Igen"> <br>
-        <label for="opcio2">Nem</label>               <input type="radio" name="gomb" id="opcio2" value="Nem"><br>
-        <label for="opcio3">Talán</label>             <input type="radio" name="gomb" id="opcio3" value="Talán">
-        <button>Elküldés</button>
+    <h1>SZAVAZÓ OLDAL</h1>
+    <form action="szavazas" method="post" id="kerdes-box">
+        <p id="cím">Geri meleg-e?</p>
+                      <input type="radio" name="gomb" id="opcio1" value="Igen">          <label for="opcio1">Igen</label> 
+                      <input type="radio" name="gomb" id="opcio2" value="Nem">           <label for="opcio2">Nem</label>               
+                      <input type="radio" name="gomb" id="opcio3" value="Talán">         <label for="opcio3">Talán</label>              <br> <br>
+        <button id="Elkuldgomb" type="submit">Elküldés</button>
     </form>
 </body>
 </html>
