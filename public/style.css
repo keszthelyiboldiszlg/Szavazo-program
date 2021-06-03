@@ -4,17 +4,17 @@
 
 
 html {
-    background-color:grey;
+    background-color: darkgray;
 }
 
 h1{
-    color: black;
+    color: white;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #kerdes-box{
-    background-color: lightsteelblue;
+    background-color: orange;
 
     margin-top: 6vh;
     padding-bottom: 2vh;    
@@ -26,6 +26,10 @@ h1{
     
     text-align: center;
     
+}
+
+label:hover{
+    background-color: slateblue;
 }
 
 #cím{
@@ -47,4 +51,5 @@ label{
 #Elkuldgomb:hover {
     background-color:slateblue;
     cursor: pointer;
+    color:slateblue;
 }
